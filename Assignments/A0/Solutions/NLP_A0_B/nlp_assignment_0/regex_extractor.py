@@ -54,7 +54,7 @@ def searchText():
                 "Respiratory diseases":["lung disorders", "respiratory illnesses"],
                 "Alzheimer's disease":["senile dementia", "dementia of the elderly"],
                 "Diabetes":["hyperglycemia", "high blood sugar", "diabetic", "diabetes mellitus", "diabetes insipidus", "diabetes type 1", "diabetes type 2"],
-                "Influenza and Pneumonia":["flu", "pneumonia", "lung infection"],
+                "Influenza and Pneumonia":["flu", "pneumonia", "lung infection", "influenza"],
                 "Kidney diseases":["renal diseases", "kidney problems"],
                 "Septicemia":["sepsis", "blood infection"],
                 "Liver disease":["hepatitis", "liver damage"],
