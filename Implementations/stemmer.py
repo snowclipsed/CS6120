@@ -7,7 +7,7 @@ def porter_stemmer(words):
     stemmed_words = [stemmer.stem(word) for word in words]
     return stemmed_words
 
-words = ["argument", "running", "jumped"]
+words = ["argument", "running", "jumped", "better", "running", "happily"]
 stemmed_words = porter_stemmer(words)
 
 print(f"Original words: {words}")
