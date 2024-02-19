@@ -162,3 +162,4 @@ cython_debug/
 Assignments/*/data/*
 
 .DS_Store
+Assignments/A2/CNN/data/preprocessed.csv
