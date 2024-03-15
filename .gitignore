@@ -159,7 +159,8 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-Assignments/*/data/*
+Assignments/*/data/*.jsonl
+Assignments/*/data/*.csv
 
 .DS_Store
 Assignments/A2/CNN/data/preprocessed.csv
