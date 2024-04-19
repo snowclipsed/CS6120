@@ -1,0 +1,58 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "yelp_review_full",
+  "dataset_name": "yelp_review_full",
+  "dataset_size": 521170242,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/yelp_review_full@c1f9ee939b7d05667af864ee1cb066393154bf85/yelp_review_full/train-00000-of-00001.parquet": {
+      "num_bytes": 299436850,
+      "checksum": null
+    },
+    "hf://datasets/yelp_review_full@c1f9ee939b7d05667af864ee1cb066393154bf85/yelp_review_full/test-00000-of-00001.parquet": {
+      "num_bytes": 23515519,
+      "checksum": null
+    }
+  },
+  "download_size": 322952369,
+  "features": {
+    "label": {
+      "names": [
+        "1 star",
+        "2 star",
+        "3 stars",
+        "4 stars",
+        "5 stars"
+      ],
+      "_type": "ClassLabel"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 844122611,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 483892804,
+      "num_examples": 650000,
+      "dataset_name": "yelp_review_full"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 37277438,
+      "num_examples": 50000,
+      "dataset_name": "yelp_review_full"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
